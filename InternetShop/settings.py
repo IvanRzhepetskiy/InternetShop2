@@ -133,10 +133,9 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 #added me bellow
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(REPOSITORY_ROOT, '/media')
-"""
+
 
 try:
     from .settings_prod import *
 except:
     pass
-"""
