@@ -135,7 +135,14 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(REPOSITORY_ROOT, '/media')
 
 
+#added 24 09
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
+"""
+
+
 try:
     from .settings_prod import *
 except:
     pass
+"""
