@@ -27,7 +27,7 @@ SECRET_KEY = '886&nsbe&l3o!dc5)3(&g$sj^1zd$0rrz*=!wuw@wm!i4p&!t!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['benz4you.com.ua','104.248.19.147']
+ALLOWED_HOSTS = ['benz4you.com.ua','104.248.19.147','127.0.0.1','localhost']
 
 
 # Application definition
@@ -155,8 +155,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
 
 
 
+"""
 
 try:
     from .settings_prod import *
 except:
     pass
+"""
