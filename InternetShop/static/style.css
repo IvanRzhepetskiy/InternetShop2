@@ -38,6 +38,46 @@
     border: none;
 }
 */
+/*html, body{
+        height:100%;
+        max-height:100%;
+        font-family: 'Open Sans', sans-serif;
+}
+
+.top-container{
+    padding-top: 10%;
+    color:white;
+}
+
+.general-container{
+    background: url('img/back.jpg');
+    height: 100%;
+
+
+   }
+.title{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+
+}
+.form-inline{
+    line-height: 30px;
+}
+.general-container form label{
+    font-weight: 500;
+    color:white;
+}
+
+.btn-orange{
+    background-color: #e8643e;
+    border:none;
+}
+.btn-orange:hover{
+    background-color: #dc5129;
+    border: none;
+}
+*/
 html, body{
     height: 100%;
     max-height: 100%;
@@ -79,13 +119,13 @@ html, body{
     margin-top: -180px; /* negative value of footer height */
     height: 180px;
     clear: both;
-    background-color: white;
+    background-color: #494949;
 }
 
 .discount-container{
     position: absolute;
-    top: 30%;
-    background: #55e073;
+    top: 15%;
+    background: #AB0000;
     width: 30%;
     color: white;
     font-weight: 700;
@@ -118,15 +158,18 @@ html, body{
 .navbar-top{
     min-height: 10px;
     height: 20px;
-    background-color: green;
+    background-color: #181819;
     border: none;
     border-radius: 0;
 }
 
 .navbar-main{
-    background-color: #55e073;
+    background-color: #252526;
     border: none;
     border-radius: 0;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
 }
 
 .basket-container{
@@ -136,10 +179,13 @@ html, body{
 }
 
 .basket-items{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
     position: absolute;
     top: 50px;
     width: 100%;
-    background-color: #55e093;
+    background-color: #181819;
     z-index: 10;
     padding: 10px;
 }
@@ -147,4 +193,20 @@ html, body{
 .form-error{
     text-color: red;
 
+}
+
+.text{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    height: 180px;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
 }

@@ -135,6 +135,11 @@ STATICFILES_DIRS = (
   os.path.join(BASE_DIR, "static"),
 )
 """
+import os
+ROOT_PATH = os.path.dirname(__file__)
+
+STATICFILES_DIRS = [os.path.join(ROOT_PATH, 'static')]
+
 
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
@@ -151,8 +156,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
 
 
 """
-
-
 try:
     from .settings_prod import *
 except:

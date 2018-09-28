@@ -9,16 +9,18 @@
                                 <div class="discount-container">
                                     <span>{{ product_image.product.dicsount }}%</span>
                                 </div>
-                                {% endif %} #}
+                                {% endif %}
                                 <h4>{{ product_image.product.name }}</h4>
                                 <p>{{ product_image.product.description|truncatechars_html:70 }}</p>
-                                <div>
-                                    {{ product_image.product.price }} UAH
-                                </div>
-                            <div class="add-to-card-btn">
+
+
+                            <div class="add-to-card-btn"><!--
                                 <button class="btn btn-success">
                                     Добавить в корзину
-                                </button>
+                                </button>-->
+
+                                    {{ product_image.product.price }} UAH
+
                             </div>
                             </div>
                         </div>
